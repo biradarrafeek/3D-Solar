@@ -1,0 +1,78 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      background: radial-gradient(ellipse at center, #000 0%, #111 100%);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    body.light {
+      background: #fff;
+      color: #000;
+    }
+    h1 {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    #container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 1200px;
+      padding: 10px;
+    }
+    canvas {
+      width: 100%;
+      height: 500px;
+      display: block;
+      background: black;
+    }
+    #controls {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #222;
+      padding: 0.5rem;
+      border-radius: 8px;
+    }
+    body.light .control-group {
+      background: #ddd;
+      color: #000;
+    }
+    #toggleAnimation, #themeToggle {
+      background: #444;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      margin: 0.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    body.light #toggleAnimation,
+    body.light #themeToggle {
+      background: #ccc;
+      color: #000;
+    }
+    .tooltip {
+      position: absolute;
+      background: #333;
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 4px;
+      pointer-events: none;
+      display: none;
+      font-size: 0.8rem;
+    }
+    body.light .tooltip {
+      background: #eee;
+      color: #000;
+    }
