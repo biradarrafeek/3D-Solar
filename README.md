@@ -2,11 +2,7 @@
 
 This project is a **fully interactive 3D simulation of the Solar System** built using **Three.js** and **vanilla JavaScript**. It visualizes the Sun and all 8 planets orbiting in real-time, with smooth animations, responsive design, and bonus features like tooltips, dark/light mode, and zoom interactions.
 
-## 🔭 Live Demo
 
-👉 [Click here to view the live demo](#) *(Upload to GitHub Pages or Netlify and insert your link)*
-
----
 
 ## 🚀 Features
 
@@ -33,7 +29,6 @@ This project is a **fully interactive 3D simulation of the Solar System** built 
 ---
 
 
-
 ## 📊 Learning Objectives
 
 Through this project, I learned:
@@ -57,5 +52,7 @@ Through this project, I learned:
 - [x] Dark/light theme toggle
 - [x] Fully functional on modern browsers
 - [x] Clean UI + well-commented code
+
+
 
 
